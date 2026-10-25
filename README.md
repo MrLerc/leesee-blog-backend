@@ -79,7 +79,15 @@ Les tests utilisent une base de données SQLite temporaire en mémoire.
 
 ## Déploiement
 
-Adresse du backend en ligne : à ajouter après le déploiement.
+**Adresse de l'API en ligne :** https://leesee-blog-backend.onrender.com/
+
+**Frontend associé :** https://leesee-blog-frontend.vercel.app/
+
+### Vérifier l'API
+
+Pour consulter les articles :
+
+https://leesee-blog-backend.onrender.com/api/posts
 
 ## Technologies utilisées
 
