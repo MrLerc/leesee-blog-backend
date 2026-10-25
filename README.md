@@ -1,4 +1,4 @@
-# Backend du blog Leesee
+# Backend du blog
 
 API REST pour un blog simple, développée avec Python, Flask, Flask-SQLAlchemy et SQLite.
 
