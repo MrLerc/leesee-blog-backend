@@ -25,6 +25,8 @@ class Post(db.Model):
 def create_app(test_config=None):
     app = Flask(__name__)
 
+    os.makedirs(app.instance_path, exist_ok=True)
+
     app.config["SQLALCHEMY_DATABASE_URI"] = (
         "sqlite:///" + os.path.join(app.instance_path, "blog.db")
     )
